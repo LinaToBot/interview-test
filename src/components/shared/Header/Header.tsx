@@ -1,16 +1,12 @@
 // logo.
 // import logoIcon from "../../../assets/images/logo.png";
 import logoIconL from "../../../assets/images/logo-2x.png";
-import "./header.css";
+import "./Header.css";
 
 export const Header: React.FC = () => {
   return (
-    <header className="text-[#000] font-[900]">
+    <header className="flex flex-row justify-center items-center">
       <img src={logoIconL} alt="logo" />
-      {/* <picture>
-        <source src={logoIconL} media="(max-width: 810px)" type="logo-2x/png" />
-      </picture> */}
-      header
     </header>
   );
 };
