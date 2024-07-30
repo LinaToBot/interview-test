@@ -15,7 +15,7 @@ export const HomePage: React.FC = () => {
       <section className="first-section-home w-full ">
         <section
           id="form-section"
-          className="flex flex-row bg-transparent w-full pt-[35vh] h-full"
+          className="flex flex-row bg-transparent w-full h-full"
         >
           <div id="cta-p" className="text-center">
             <h1 className="title">
