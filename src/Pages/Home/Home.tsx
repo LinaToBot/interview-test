@@ -12,23 +12,23 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <Header />
-      <section className="first-section-home w-full h-screen overflow-hidden">
+      <section className="first-section-home w-full ">
         <section
           id="form-section"
           className="flex flex-row bg-transparent w-full pt-[35vh] h-full"
         >
-          <div id="cta-p" className="w-[51%] text-center">
+          <div id="cta-p" className="text-center">
             <h1 className="title">
               It's time for you to finally <br />{" "}
               <span className="font-bold">Tame Your Test!</span>
             </h1>
-            <p className="text-pretty align-center text-center">
+            <p className="paragraph text-pretty align-center text-center">
               Get started with your test preparation with unique <br />{" "}
               personalized courses and experts that will work with you <br />{" "}
               hand in hand.
             </p>
-            <div id="exams-types" className="flex flex-col w-full gap-[4.5rem]">
-              <div className="flex justify-center items-center w-full gap-[3.25rem]">
+            <div id="exams-types" className=" w-full gap-[4.5rem]">
+              <div className="flex justify-center items-center w-full">
                 <img src={gMat} alt="gmat-logo" />
                 <img src={toelf} alt="toelf-logo" />
               </div>
@@ -37,7 +37,7 @@ export const HomePage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div id="form" className="w-[49%] text-center">
+          <div id="form" className=" text-center">
             <p>Get a FREE personalized planning session</p>
             <form></form>
           </div>
