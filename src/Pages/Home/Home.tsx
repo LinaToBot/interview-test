@@ -22,7 +22,7 @@ export const HomePage: React.FC = () => {
               It's time for you to finally <br />{" "}
               <span className="font-bold">Tame Your Test!</span>
             </h1>
-            <p className="paragraph text-pretty align-center text-center">
+            <p className="paragraph text-pretty">
               Get started with your test preparation with unique <br />{" "}
               personalized courses and experts that will work with you <br />{" "}
               hand in hand.
@@ -38,8 +38,43 @@ export const HomePage: React.FC = () => {
             </div>
           </div>
           <div id="form" className=" text-center">
-            <p>Get a FREE personalized planning session</p>
-            <form></form>
+            <div>
+              <p className="font-[900] text-center text-pretty line-clamp-2">
+                Get a FREE personalized <br />
+                planning session
+              </p>
+              <form>
+                <label>Full Name:</label>
+                <input
+                  name="submitted-name"
+                  placeholder=" eg: jaison.justus"
+                  required
+                />
+                <label>Email:</label>
+                <input
+                  name="submitted-name"
+                  placeholder=" eg: yourname@gmail.com"
+                  required
+                />
+                <label>Phone Number:</label>
+                <input
+                  name="submitted-name"
+                  placeholder=" eg: 04713457890"
+                  required
+                />
+                <label>Test of Interest:</label>
+                <div className="custom-select">
+                  <select required>
+                    <option value="">- Select -</option>
+                    <option value="test1">G MAT</option>
+                    <option value="test2">TOEFL</option>
+                    <option value="test3">GRE</option>
+                  </select>
+                </div>
+
+                <button type="submit">SEND</button>
+              </form>
+            </div>
           </div>
         </section>
       </section>
