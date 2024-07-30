@@ -4,7 +4,7 @@
   background-position: center;
 }
 
-section section div .title {
+/* section section div .title {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0px;
   color: #36414d;
@@ -24,4 +24,73 @@ section section div p {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
+} */
+
+@media (min-width: 0px) and (max-width: 357px) {
+}
+
+@media (min-width: 357px) and (max-width: 810px) {
+  section section div .title {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0px;
+    color: #36414d;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 0.8rem 10rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    border-bottom: solid 1px #4e4d4d;
+  }
+
+  section section div p {
+    padding: 0 0 0 8.625rem;
+  }
+
+  section section div p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 810px) {
+  section section div .title {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0px;
+    color: #36414d;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 0.8rem 10rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    border-bottom: solid 1px #4e4d4d;
+  }
+
+  section section div p {
+    padding: 0 0 0 8.625rem;
+  }
+
+  section section div p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+  section section #cta-p #exams-types {
+    div:first-of-type {
+      img:first-of-type {
+        width: 14.5rem;
+        height: auto;
+      }
+      img:nth-of-type(2) {
+        width: 15.5rem;
+        height: auto;
+      }
+    }
+    div:nth-of-type(2) {
+      img:first-of-type {
+        width: 13rem;
+        height: auto;
+      }
+    }
+  }
 }

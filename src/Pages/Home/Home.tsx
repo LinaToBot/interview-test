@@ -29,11 +29,11 @@ export const HomePage: React.FC = () => {
             </p>
             <div id="exams-types" className="flex flex-col w-full gap-[4.5rem]">
               <div className="flex justify-center items-center w-full gap-[3.25rem]">
-                <img src={gMat} alt="gmat-logo" className="" />
-                <img src={toelf} alt="toelf-logo" className="" />
+                <img src={gMat} alt="gmat-logo" />
+                <img src={toelf} alt="toelf-logo" />
               </div>
               <div className="flex justify-center items-center">
-                <img src={gre} alt="gre-logo" className=" " />
+                <img src={gre} alt="gre-logo" />
               </div>
             </div>
           </div>
