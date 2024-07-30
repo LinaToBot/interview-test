@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
           id="form-section"
           className="flex flex-row bg-transparent w-full pt-[35vh] h-full"
         >
-          <div id="cta-p" className="w-[60%] text-center">
+          <div id="cta-p" className="w-[51%] text-center">
             <h1 className="title">
               It's time for you to finally <br />{" "}
               <span className="font-bold">Tame Your Test!</span>
@@ -37,7 +37,7 @@ export const HomePage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div id="form" className="w-[40%] text-center">
+          <div id="form" className="w-[49%] text-center">
             <p>Get a FREE personalized planning session</p>
             <form></form>
           </div>
