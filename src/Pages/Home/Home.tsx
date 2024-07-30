@@ -4,7 +4,10 @@ import { Header } from "../../components/shared/Header/Header";
 export const HomePage: React.FC = () => {
   return (
     <>
-      <Header /> <section>home</section> <Footer />
+      <section>
+        <Header /> home
+      </section>
+      <Footer />
     </>
   );
 };
