@@ -1,7 +1,11 @@
 /*desktop*/
 @media (min-width: 1280px) {
   .first-section-home {
-    margin-top: 15rem;
+    background-image: url("/src/assets/images/background.png");
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 15rem;
     flex-direction: row;
     width: 100%;
     gap: 5.4rem;
@@ -65,18 +69,55 @@
     }
   }
   #form-content {
+    flex-direction: column;
+    justify-content: start;
     width: 45%;
+    padding-right: 9rem;
+
+    p:first-of-type {
+      font-size: 1.8rem;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 1.125rem;
+    }
     form {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.75rem 3.25rem;
+      border-radius: 5px;
+
       label {
+        display: flex;
         font-family: "Raleway", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1.125rem 0 0.625rem 0;
       }
       input {
         font-family: Helvetica, sans-serif, Arial;
+        border: solid 1px #a4a89d;
+        border-radius: 3px;
+        margin: 2px;
       }
       .custom-select {
         select {
           font-family: Helvetica, sans-serif, Arial;
         }
+      }
+      button {
+        background: #a8895b 0% 0% no-repeat padding-box;
+        width: 10rem;
+        font-weight: 900;
+        text-align: center;
+        margin: 1rem auto 0 auto;
+        padding: 0.5rem;
+        border: solid 1px #95989a;
+        color: white;
+        border-radius: 5px;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.125rem;
+        cursor: pointer;
       }
     }
   }

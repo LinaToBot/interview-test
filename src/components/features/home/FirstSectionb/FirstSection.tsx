@@ -31,12 +31,12 @@ export const FirstSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div id="form-content" className="">
+      <div id="form-content" className="flex">
         <p className="font-raleway">
           Get a FREE personalized <br />
           planning session
         </p>
-        <form>
+        <form className="flex bg-[#ffffff]">
           <label>Full Name:</label>
           <input name="full-name" placeholder=" eg: jaison.justus" required />
           <label>Email:</label>
