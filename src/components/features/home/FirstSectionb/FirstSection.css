@@ -1,3 +1,116 @@
+/*tablet*/
+@media (min-width: 810px) and (max-width: 1280px) {
+  .first-section-home {
+    background-image: url("/src/assets/images/background.png");
+    background-size: cover;
+    background-position: center;
+
+    padding: 15rem 0 4rem 0;
+    flex-direction: column;
+    width: 100%;
+    gap: 5.4rem;
+    #cta-p {
+      .title {
+        font-size: 2.75rem;
+        font-weight: 300;
+        text-align: center;
+        justify-content: center;
+
+        span {
+          font-size: 3.3rem;
+          font-weight: 900;
+        }
+      }
+      .grey-line {
+        margin-top: 1.125rem;
+        margin-bottom: 1.8rem;
+      }
+
+      .paragraph {
+        font-size: 1.125rem;
+        font-weight: 800;
+        text-align: center;
+      }
+      .exams-container {
+        flex-direction: row;
+        justify-content: center;
+        .exams-types {
+          flex-direction: column;
+          .first-exams {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 3.25rem;
+            margin: 2.8rem 0 3rem 0;
+            img:first-of-type {
+              height: 9rem;
+            }
+            img:nth-of-type(2) {
+              height: 3rem;
+            }
+          }
+          .third-exam {
+            flex-direction: row;
+            justify-content: center;
+            img:first-of-type {
+              height: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  #form-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    p:first-of-type {
+      font-size: 1.8rem;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    form {
+      width: 30rem;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.75rem 3.25rem;
+      border-radius: 5px;
+
+      label {
+        display: flex;
+        font-family: "Raleway", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1.125rem 0 0.625rem 0;
+      }
+      input {
+        font-family: Helvetica, sans-serif, Arial;
+        border: solid 1px #a4a89d;
+        border-radius: 3px;
+        margin: 2px;
+      }
+
+      button {
+        background: #a8895b 0% 0% no-repeat padding-box;
+        width: 10rem;
+        font-weight: 900;
+        text-align: center;
+        margin: 1rem auto 0 auto;
+        padding: 0.5rem;
+        border: solid 1px #95989a;
+        color: white;
+        border-radius: 5px;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.125rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 /*desktop*/
 @media (min-width: 1280px) {
   .first-section-home {
@@ -5,7 +118,7 @@
     background-size: cover;
     background-position: center;
 
-    padding-top: 15rem;
+    padding: 15rem 0 4rem 0;
     flex-direction: row;
     width: 100%;
     gap: 5.4rem;
