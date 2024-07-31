@@ -494,13 +494,13 @@
     color: #36414d;
     border-bottom: solid 1px #4e4d4d;
     /* width: 100%;
-    padding: 0 0 0.8rem clamp(7rem, 10vw + 2rem, 50rem);
-
-    width: fit-content;
-
-    br {
-      display: none;
-    } */
+      padding: 0 0 0.8rem clamp(7rem, 10vw + 2rem, 50rem);
+  
+      width: fit-content;
+  
+      br {
+        display: none;
+      } */
   }
 
   section section #cta-p {
