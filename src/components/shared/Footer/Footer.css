@@ -1,0 +1,44 @@
+/*mobile*/
+@media (min-width: 0px) and (max-width: 810px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2.5rem 0 3rem 0;
+    .final-texts {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}
+
+/*Tablet*/
+@media (min-width: 810px) and (max-width: 1280px) {
+  .footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem 5.5rem 3rem 5.5rem;
+    .final-texts {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1280px) {
+  .footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem 5.5rem 3rem 5.5rem;
+    .final-texts {
+      gap: 1.5rem;
+      flex-direction: row;
+    }
+  }
+}
