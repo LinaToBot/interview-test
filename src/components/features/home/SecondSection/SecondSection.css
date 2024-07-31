@@ -185,6 +185,7 @@
   }
 }
 
+/*Desktop*/
 @media (min-width: 1280px) {
   #second-section {
     display: flex;
