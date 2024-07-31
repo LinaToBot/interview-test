@@ -1,7 +1,7 @@
 // assets.
 import coffeeImg from "../../../../assets/images/coffee-x2.png";
 import harvardLogo from "../../../../assets/images/harvard-h@2x.png";
-import standfordLogo from "../../../../assets/images/stanford-h@2x.png";
+import stanfordLogo from "../../../../assets/images/stanford-h@2x.png";
 // styles.
 import "./FourthSection.css";
 
@@ -35,8 +35,8 @@ export const FourthSection: React.FC = () => {
         </div>
 
         <div className="imgs-set">
-          <img src={harvardLogo} alt="harverd logo" />
-          <img src={standfordLogo} alt="stanford logo" />
+          <img src={harvardLogo} alt="Harvard logo" />
+          <img src={stanfordLogo} alt="Stanford logo" />
         </div>
       </div>
       <div id="principal-img">

@@ -1,6 +1,6 @@
 // logo.
-// import logoIcon from "../../../assets/images/logo.png";
 import logoIconL from "../../../assets/images/logo.png";
+// styles
 import "./Header.css";
 
 export const Header: React.FC = () => {

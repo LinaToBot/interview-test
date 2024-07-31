@@ -1,7 +1,7 @@
-// Assets.
+// assets.
 import writing from "../../../../assets/images/woman-x2.png";
 import checkIcon from "../../../../assets/icons/check-icon.svg";
-// Styles.
+// styles.
 import "./SecondSection.css";
 
 export const SecondSection: React.FC = () => {

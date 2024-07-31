@@ -1,4 +1,4 @@
-/*Mobile*/
+/*mobile*/
 @media (min-width: 0px) and (max-width: 810px) {
   #second-section {
     width: 100%;
@@ -92,7 +92,7 @@
   }
 }
 
-/*Tablet*/
+/*tablet*/
 @media (min-width: 810px) and (max-width: 1280px) {
   #second-section {
     display: flex;
@@ -185,7 +185,7 @@
   }
 }
 
-/*Desktop*/
+/*desktop*/
 @media (min-width: 1280px) {
   #second-section {
     display: flex;

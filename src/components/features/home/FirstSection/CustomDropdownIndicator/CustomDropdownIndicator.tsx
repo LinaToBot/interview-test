@@ -1,4 +1,6 @@
+// libraries.
 import { components } from "react-select";
+// assets.
 import icon from "../../../../../assets/icons/dropdown-icon.svg";
 
 export const CustomDropdownIndicator = (props: any) => {

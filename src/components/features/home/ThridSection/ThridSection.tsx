@@ -3,7 +3,8 @@ import img1 from "../../../../assets/images/person1-x2.png";
 import img2 from "../../../../assets/images/person2-x2.png";
 import img3 from "../../../../assets/images/person3-x2.png";
 // styles.
-import "./ThridSection.css";
+import "./ThirdSection.css";
+
 export const ThirdSection: React.FC = () => {
   return (
     <section id="third-section" className="flex justify-center bg-[#ffffff]">

@@ -1,6 +1,7 @@
 // libraries.
 import { useState } from "react";
 import Select, { StylesConfig } from "react-select";
+// components
 import { CustomDropdownIndicator } from "./CustomDropdownIndicator/CustomDropdownIndicator";
 // assets.
 import gMat from "../../../../assets/images/gmap-x2.png";
@@ -61,7 +62,7 @@ export const FirstSection: React.FC = () => {
     }),
     singleValue: (provided) => ({
       ...provided,
-      color: "#36414d", // Custom text color
+      color: "#36414d",
     }),
   };
 

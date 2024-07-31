@@ -2,7 +2,6 @@
 import facebookIcon from "../../../assets/icons/facebook-brands (2).svg";
 import instagramIcon from "../../../assets/icons/instagram-brands (3).svg";
 import twitterIcon from "../../../assets/icons/twitter-brands (3).svg";
-
 // styles.
 import "./Footer.css";
 
