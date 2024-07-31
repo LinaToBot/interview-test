@@ -1,0 +1,83 @@
+/*desktop*/
+@media (min-width: 1280px) {
+  .first-section-home {
+    margin-top: 15rem;
+    flex-direction: row;
+    width: 100%;
+    gap: 5.4rem;
+    #cta-p {
+      width: 55%;
+
+      .title {
+        width: 58%;
+        font-size: 2.75rem;
+        font-weight: 300;
+        text-align: center;
+        justify-content: right;
+        margin-left: 45%;
+        span {
+          font-size: 3.3rem;
+          font-weight: 900;
+        }
+      }
+      .grey-line {
+        margin-top: 1.125rem;
+        margin-bottom: 1.8rem;
+      }
+
+      .paragraph {
+        font-size: 1.125rem;
+        font-weight: 800;
+        text-align: center;
+        margin-left: 45%;
+      }
+      .exams-container {
+        flex-direction: row;
+        justify-content: end;
+
+        padding-left: 10rem;
+        .exams-types {
+          flex-direction: column;
+          .first-exams {
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            gap: 3.25rem;
+            margin: 2.8rem 0 3rem 0;
+            img:first-of-type {
+              height: 9rem;
+            }
+            img:nth-of-type(2) {
+              height: 3rem;
+            }
+          }
+          .third-exam {
+            flex-direction: row;
+            justify-content: center;
+            padding-left: 5rem;
+
+            img:first-of-type {
+              height: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  #form-content {
+    width: 45%;
+    form {
+      label {
+        font-family: "Raleway", sans-serif;
+      }
+      input {
+        font-family: Helvetica, sans-serif, Arial;
+      }
+      .custom-select {
+        select {
+          font-family: Helvetica, sans-serif, Arial;
+        }
+      }
+    }
+  }
+}
