@@ -18,23 +18,25 @@ export const HomePage: React.FC = () => {
           className="flex flex-row bg-transparent w-full h-full"
         >
           <div id="cta-p" className="text-center">
-            <h1 className="title">
-              It's time for you to finally <br />{" "}
-              <span className="font-bold">Tame Your Test!</span>
-            </h1>
+            <div className="title align-end">
+              <h1>
+                It's time for you to finally <br />{" "}
+                <span className="font-bold">Tame Your Test!</span>
+              </h1>
+            </div>
             <p className="paragraph text-pretty">
               Get started with your test preparation with unique <br />{" "}
               personalized courses and experts that will work with you <br />{" "}
               hand in hand.
             </p>
-            <div id="exams-types" className=" w-full gap-[4.5rem]">
+            <div id="exams-types" className=" gap-[4.5rem]">
               <div className="flex justify-center items-center w-full">
                 <img src={gMat} alt="gmat-logo" />
                 <img src={toelf} alt="toelf-logo" />
               </div>
               <div className="flex justify-center items-center">
                 <img src={gre} alt="gre-logo" />
-              </div>
+              </div>{" "}
             </div>
           </div>
           <div id="form" className=" text-center">
