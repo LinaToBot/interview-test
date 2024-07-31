@@ -1,15 +1,15 @@
 // libraries.
 import { useState } from "react";
 import Select, { StylesConfig } from "react-select";
-import { CustomDropdownIndicator } from "./CustomDropdownIndicator/CustomDropdownIndicator";
+// import { CustomDropdownIndicator } from "./CustomDropdownIndicator/CustomDropdownIndicator";
 // assets.
 import gMat from "../../../../assets/images/gmap-x2.png";
 import toelf from "../../../../assets/images/toelf-x2.png";
 import gre from "../../../../assets/images/gre-x2.png";
 // styles.
-import "./FirstSection.css";
+import "./FirstSectionb.css";
 
-export const FirstSection: React.FC = () => {
+export const FirstSectionb: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
@@ -74,12 +74,14 @@ export const FirstSection: React.FC = () => {
 
         <div className="grey-line h-[1px] bg-[#a4a89d]" />
 
-        <p className="paragraph font-raleway">
-          Get started with your test preparation with unique <br /> personalized
-          courses and experts that will work with you <br /> hand in hand.
-        </p>
-        <div className="exams-container flex ">
-          <div className="exams-types flex">
+        <div className="after-grey-line">
+          <p className="paragraph font-raleway">
+            Get started with your test preparation with unique <br />{" "}
+            personalized courses and experts that will work with you <br /> hand
+            in hand.
+          </p>
+
+          <div className="exams-container flex ">
             <div className="first-exams flex">
               <img src={gMat} alt="gmat logo" />
               <img src={toelf} alt="toelf logo" />
@@ -112,7 +114,7 @@ export const FirstSection: React.FC = () => {
               options={options}
               styles={customStyles}
               placeholder="- Select -"
-              components={{ DropdownIndicator: CustomDropdownIndicator }}
+              // components={{ DropdownIndicator: CustomDropdownIndicator }}
               value={selectedOption}
               onChange={handleChange}
             />

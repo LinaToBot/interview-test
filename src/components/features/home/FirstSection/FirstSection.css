@@ -10,49 +10,62 @@
     width: 100%;
     gap: 5.4rem;
     #cta-p {
+      padding: 0 2rem;
       .title {
-        font-size: 1.5rem;
+        width: 67%;
+        font-size: 2.75rem;
         font-weight: 300;
         text-align: center;
         justify-content: center;
-
+        width: 100%;
         span {
-          font-size: 2rem;
+          font-size: 3.3rem;
           font-weight: 900;
         }
       }
       .grey-line {
         margin-top: 1.125rem;
         margin-bottom: 1.8rem;
+        width: 100%;
       }
 
-      .paragraph {
-        font-size: 1rem;
-        font-weight: 800;
-        text-align: center;
-      }
-      .exams-container {
+      .after-grey-line {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        .exams-types {
+        align-items: center;
+        width: 100%;
+        .paragraph {
+          font-size: 1.125rem;
+          font-weight: 800;
+          text-align: center;
+          width: fit-content;
+        }
+
+        .exams-container {
           flex-direction: column;
-          padding: 2rem;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
           .first-exams {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 3.25rem;
-            margin: 2.8rem 0 3rem 0;
+            gap: 3.5rem;
+            margin: 3.5rem 0;
+            width: fit-content;
             img:first-of-type {
               height: 6rem;
             }
             img:nth-of-type(2) {
-              height: 2.5rem;
+              height: 3rem;
             }
           }
           .third-exam {
             flex-direction: row;
             justify-content: center;
+            align-items: center;
+
             img:first-of-type {
               height: 3rem;
             }
@@ -124,11 +137,12 @@
     gap: 5.4rem;
     #cta-p {
       .title {
+        width: 67%;
         font-size: 2.75rem;
         font-weight: 300;
         text-align: center;
         justify-content: center;
-
+        width: 100%;
         span {
           font-size: 3.3rem;
           font-weight: 900;
@@ -137,26 +151,36 @@
       .grey-line {
         margin-top: 1.125rem;
         margin-bottom: 1.8rem;
+        width: 100%;
       }
 
-      .paragraph {
-        font-size: 1.125rem;
-        font-weight: 800;
-        text-align: center;
-      }
-      .exams-container {
-        flex-direction: row;
+      .after-grey-line {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        .exams-types {
+        align-items: center;
+        width: 100%;
+        .paragraph {
+          font-size: 1.125rem;
+          font-weight: 800;
+          text-align: center;
+          width: fit-content;
+        }
+
+        .exams-container {
           flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
           .first-exams {
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            gap: 3.25rem;
+            gap: 2.2rem;
             margin: 2.8rem 0 3rem 0;
+            width: fit-content;
             img:first-of-type {
-              height: 9rem;
+              height: 6rem;
             }
             img:nth-of-type(2) {
               height: 3rem;
@@ -165,6 +189,8 @@
           .third-exam {
             flex-direction: row;
             justify-content: center;
+            align-items: center;
+
             img:first-of-type {
               height: 3rem;
             }
@@ -244,7 +270,8 @@
         font-weight: 300;
         text-align: center;
         justify-content: right;
-        margin-left: 33%;
+        margin-left: 16%;
+        width: 100%;
         span {
           font-size: 3.3rem;
           font-weight: 900;
@@ -253,29 +280,38 @@
       .grey-line {
         margin-top: 1.125rem;
         margin-bottom: 1.8rem;
+        max-width: 63rem;
+        min-width: 45rem;
       }
 
-      .paragraph {
-        font-size: 1.125rem;
-        font-weight: 800;
-        text-align: center;
-        margin-left: 30%;
-      }
-      .exams-container {
-        flex-direction: row;
+      .after-grey-line {
+        display: flex;
+        flex-direction: column;
         justify-content: end;
+        align-items: center;
         width: 100%;
-        margin-right: 10rem;
-        .exams-types {
+        margin-left: 16%;
+        .paragraph {
+          font-size: 1.125rem;
+          font-weight: 800;
+          text-align: center;
+          width: fit-content;
+        }
+
+        .exams-container {
           flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
           .first-exams {
             flex-direction: row;
-            justify-content: end;
+            justify-content: center;
             align-items: center;
-            gap: 3.25rem;
+            gap: 2.2rem;
             margin: 2.8rem 0 3rem 0;
+            width: fit-content;
             img:first-of-type {
-              height: 9rem;
+              height: 6rem;
             }
             img:nth-of-type(2) {
               height: 3rem;
@@ -284,7 +320,7 @@
           .third-exam {
             flex-direction: row;
             justify-content: center;
-            padding-left: 5rem;
+            align-items: center;
 
             img:first-of-type {
               height: 3rem;
