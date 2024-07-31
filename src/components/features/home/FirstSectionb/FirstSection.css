@@ -264,8 +264,8 @@
       .exams-container {
         flex-direction: row;
         justify-content: end;
-
-        padding-left: 10rem;
+        width: 100%;
+        margin-right: 10rem;
         .exams-types {
           flex-direction: column;
           .first-exams {
