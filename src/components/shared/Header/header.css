@@ -5,6 +5,26 @@ header {
   width: 100%;
   height: 25vh;
   z-index: 100;
-  margin-top: 2rem;
   background-color: transparent;
+}
+
+@media (width: 0px) and (max-width: 320) {
+  header img {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 810) {
+  header img {
+    height: 10rem;
+    width: auto;
+  }
+}
+
+@media (min-width: 810px) {
+  header img {
+    height: auto;
+    width: auto;
+  }
 }
