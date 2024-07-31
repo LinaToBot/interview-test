@@ -11,10 +11,10 @@ export const HomePage: React.FC = () => {
     <>
       <Header />
       <FirstSection />
-      {/* <SecondSection />
+      <SecondSection />
       <ThirdSection />
       <FourthSection />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };

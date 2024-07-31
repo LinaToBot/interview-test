@@ -51,10 +51,9 @@
             }
           }
           .third-exam {
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             img:first-of-type {
-              width: auto;
               height: 3rem;
             }
           }
