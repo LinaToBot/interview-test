@@ -5,7 +5,7 @@ import gre from "../../../../assets/images/gre-x2.png";
 // styles.
 import "./FirstSection.css";
 
-export const FirstSection: React.FC = () => {
+export const FirstSectionb: React.FC = () => {
   return (
     <section className="first-section-home w-full ">
       <section
